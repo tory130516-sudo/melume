@@ -53,6 +53,8 @@ form.addEventListener("submit", async (event) => {
 
   const data = new FormData(form);
   const payload = {
+    name: String(data.get("name") || "").trim(),
+    phone: String(data.get("phone") || "").trim(),
     specialization: String(data.get("specialization") || "").trim(),
     experience: String(data.get("experience") || "").trim(),
     workFormats,

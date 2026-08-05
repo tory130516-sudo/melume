@@ -6,3 +6,26 @@
 [hidden] {
   display: none !important;
 }
+
+.question input[type="tel"] {
+  width: 100%;
+  margin-left: 0;
+  padding: 0 0 14px;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+  outline: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--white);
+  font-size: 13px;
+  line-height: 1.6;
+  transition: border-color 180ms ease;
+}
+
+.question input[type="tel"]::placeholder {
+  color: rgba(255, 255, 255, 0.32);
+}
+
+.question input[type="tel"]:focus {
+  border-color: var(--blue);
+}

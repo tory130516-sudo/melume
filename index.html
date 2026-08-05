@@ -120,7 +120,7 @@
               зв’яжемося, щоб особисто обговорити формат і умови співпраці.
             </p>
             <div class="application-aside">
-              <span>5 коротких питань</span>
+              <span>7 коротких питань</span>
               <span>≈ 2 хвилини</span>
             </div>
           </div>
@@ -134,6 +134,35 @@
         </div>
 
         <form class="lead-form" id="lead-form">
+          <div class="question">
+            <div class="question-heading">
+              <label for="full-name">Як вас звати?</label>
+            </div>
+            <input
+              id="full-name"
+              name="name"
+              type="text"
+              placeholder="Ваше ім’я та прізвище"
+              autocomplete="name"
+              required
+            />
+          </div>
+
+          <div class="question">
+            <div class="question-heading">
+              <label for="phone">Ваш номер телефону</label>
+            </div>
+            <input
+              id="phone"
+              name="phone"
+              type="tel"
+              placeholder="+380 00 000 00 00"
+              inputmode="tel"
+              autocomplete="tel"
+              required
+            />
+          </div>
+
           <div class="question">
             <div class="question-heading">
               <label for="specialization">Яка ваша спеціалізація?</label>
