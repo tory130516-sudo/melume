@@ -1,0 +1,8 @@
+:root {
+  --font-montserrat: "Montserrat";
+  --font-cormorant: "Cormorant Garamond";
+}
+
+[hidden] {
+  display: none !important;
+}
